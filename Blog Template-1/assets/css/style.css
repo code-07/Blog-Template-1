@@ -1,0 +1,481 @@
+
+/*
+----------------------------------------------------------------------------------
+
+    Template Name: Abu Taher- Testimonial section
+    Template URI: demo.ataher.com
+    Description: Abu Taher is a clean and professional web developer
+    Author: W3cops
+    Author URI: http://ataher.com/
+    Version: 1.0  
+
+-------------------------------------------------------
+*/
+
+/*
+-----------------------
+TABLE OF CONTENTS
+-----------------------
+1. Fonts
+2. Reset
+3. Global
+4. Services
+*/
+
+/*
+-----------------------
+Fonts
+-----------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+/* 
+
+/*
+-----------------------
+Reset
+-----------------------
+*/
+* {
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+}
+/* 
+
+/*
+-----------------------
+Global Settings
+-----------------------
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.h1, .h2, .h3, h1, h2, h3, .h4, .h5, .h6, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:focus,
+a:hover,
+i,
+span {
+    display: inline-block
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  display: inline-block;
+  border-bottom: 2px solid #333;
+}
+/* 
+
+/*
+-----------------------
+HEADER AREA CSS
+-----------------------
+*/
+.header-section {}
+.header-section .navbar {
+    border-radius: 0;
+    border: none;
+}
+.header-section .navbar-default {
+    background-color: #333;
+    margin-bottom: 0;
+}
+.header-section .navbar-brand {
+    width: 150px;
+    padding: 10px 150x;
+}
+.header-section .navbar-brand:hover {
+    color: #fff;
+}
+.header-section .navbar-brand .main-menu {}
+.header-section .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+.header-section .navbar-default .navbar-nav>li:last-child a {
+    padding-right: 0;
+}
+.header-section .navbar-default .navbar-nav>li>a:before {
+    content: "";
+    width: 0;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom: 7px;
+    left: 20%;
+}
+.header-section .navbar-default .navbar-nav>li>a:hover:before {
+    width: 60%;
+    transition: 0.3s;
+}
+.header-section .navbar-default .navbar-toggle {
+    border-color: #fff;
+    border-radius: 0;
+}
+.header-section .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/*
+-----------------------
+SLIDER AREA CSS
+-----------------------
+*/
+.slider-section {}
+.slider-section .header-slider {
+    margin: 20px 0;
+}
+.slider-section .header-slider .carousel slide {}
+.slider-section .header-slider .carousel-indicators {
+  display: none;
+}
+.slider-section .header-slider .carousel-inner {}
+.slider-section .header-slider .carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+.carousel-control {
+    opacity: 1; 
+    margin: 0 -120px;
+    color: #333;
+    text-shadow: none;
+}
+.carousel-control:hover, .carousel-control:focus {
+    color: #333;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+
+/*
+-----------------------
+BREDCUMB AREA CSS
+-----------------------
+*/
+
+/*
+-----------------------
+ABOUT AREA CSS
+-----------------------
+*/
+.about-section .ftr-pd {
+  padding: 0;
+}
+.about-section .heading {
+  margin-bottom: 40px;
+}
+.about-section .post-article {}
+.about-section .border-dsn {
+  border-left: 4px solid #333;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+.about-section .aside-area {
+    border: 1px solid #ddd;
+}
+
+/*
+-----------------------
+FEATURE AREA CSS
+-----------------------
+*/
+.feature-section {}
+.feature-section .ftr-pd {
+    padding: 0;
+}
+.feature-section .heading {
+  margin-bottom: 40px;
+}
+.feature-section .heading h2 {}
+.common-feature .post-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0px 20px rgba(0,0,0,.2);
+}
+.common-feature .post-title {
+    margin-bottom: 15px;
+}
+.common-feature .post-thumbnail {
+    margin-bottom: 20px;
+}
+.common-feature .post-thumbnail img {
+    width: 100%;
+    height: 230px;
+}
+.common-feature .post-article p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.common-feature .post-article p a {
+    font-weight: 700;
+}
+/*
+-----------------------
+RECENT AREA CSS
+-----------------------
+*/
+.recent-section .ftr-pd {
+  padding: 0;
+}
+.recent-section .heading {
+  margin: 40px 0;
+}
+/*
+-----------------------
+POPULAR AREA CSS
+-----------------------
+*/
+.popular-section .ftr-pd {
+  padding: 0;
+}
+.popular-section .heading {
+  margin: 40px 0;
+}
+/*
+-----------------------
+BLOG AREA CSS
+-----------------------
+*/
+.blog-section .article-area {
+  padding-left: 0;
+}
+.blog-section .post-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.blog-section .post-title {
+    margin-bottom: 15px;
+}
+.blog-section .post-title h2 {}
+.blog-section .post-meta {
+    margin-bottom: 10px;
+}
+.blog-section .post-meta h6 {}
+.blog-section .post-meta span {
+    font-weight: 900;
+}
+.blog-section .post-thumbnail {
+    margin-bottom: 20px;
+}
+.blog-section .post-thumbnail img {
+    width: 100%;
+    height: 330px;
+}
+.blog-section .post-article {}
+.blog-section .post-article p {
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.blog-section .post-article p a {
+    font-weight: 700;
+}
+.blog-section .aside-area {
+  border: 1px solid #ddd;
+}
+.blog-section .pagination-area li a {
+    margin-right: 5px;
+    color: #333;
+    font-weight: 700;
+}
+.blog-section .pagination>li>a:hover, .pagination>li>a:focus {
+    color: #fff;
+    background-color: #333;
+    border-color: #fff;
+}
+.blog-section .pagination>li:first-child>a, 
+.pagination>li:first-child>span {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.blog-section .pagination>li:last-child>a, 
+pagination>li:last-child>span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+/*
+-----------------------
+SIDEBAR AREA CSS
+-----------------------
+*/
+.sidebar-area {
+    margin: 25px 0;
+}
+.sidebar-area .widget-area {
+    margin-bottom: 40px;
+}
+.sidebar-area .widget-title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.sidebar-area .widget-title h3 {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.sidebar-area .widget-container {
+    margin-top: 10px;
+}
+.sidebar-area .search-text {
+  position: relative;
+  border: 1px solid #333;
+  padding: 5px 10px;
+}
+.sidebar-area .search-btn:after {
+    content: "\f002";
+    font-family: fontawesome;
+    font-size: 13px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.sidebar-area .sidebar-recent-post img {
+  height: auto;
+}
+.sidebar-area .sidebar-recent-post h2 {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.sidebar-area .sidebar-category li:before {
+    content: ">";
+    font-size: 13px;
+    margin-left: 0;
+}
+/*
+-----------------------
+FOOTER AREA CSS
+-----------------------
+*/
+.footer-section {
+  margin-top: 30px;
+}
+.footer-section .footer-area {
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+.footer-section ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer-section .footer-1 .footer-logo{
+  position: relative;
+  top: -5px;
+}
+.footer-section .footer-2 .footer-menu {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-section .footer-3 .footer-social ul li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
+    margin: 0 2px;
+}
+.footer-section .footer-social {
+    text-align: center;
+}
+.footer-section .footer-copy {
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+/*
+-----------------------
+CONTACT AREA CSS
+-----------------------
+*/
+.contact-section {}
+.contact-section .contact-title {
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.contact-section .contact-title h2 {
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding: 5px 0;
+}
+.contact-section .contatc-details {}
+.contact-section .contatc-info {
+    margin-bottom: 20px;
+}
+.contact-section .contact-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    float: left;
+    margin-right: 20px;
+}
+.contact-section .contact-content {
+    padding: 10px 0;
+}
+.contact-section .form-control {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.contact-section .submit {
+  width: 30%;
+  margin: 0 35%;
+}
+.contact-section textarea {}
+.contact-section .submit .form-control {
+  background-color: #333;
+  color: #fff;
+}
